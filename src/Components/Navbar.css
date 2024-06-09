@@ -1,0 +1,179 @@
+
+nav{
+    width: 100vw;
+    height: 12vh;
+    background-color: black;
+    color: rgb(15, 132, 234);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+
+}
+.dark{
+    background-color: white;
+    color: black;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 5vw;
+}
+.Logo{
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.navigation{
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    margin: -4px   0;
+}
+
+nav h1 {
+    display: inline;
+    font-size: 16px;
+    margin-left: 0.5vw;
+}
+nav li{
+    display: inline-block;
+    padding:0 0.2rem;
+    position: relative;
+    margin: 20px 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    border-bottom: 2px solid gainsboro;
+}
+li:hover{
+    color: rgb(56, 251, 13);
+    border-bottom: 2px solid rgb(56, 251, 13);
+    font-size: 18px;
+    transition-property: width;
+    transition-duration: 20s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 10s;
+}
+.x{
+    display: none;
+    flex-direction: column;
+    height: 30px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+#y{
+    display: none;
+    font-weight: 900;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.x div {
+    height: 0;
+    width: 50%;
+    display: flex;
+    border: 2PX SOLID rgb(126, 205, 126);
+    margin: 2px;
+    border-radius: 5px;   
+}
+.m-nav{
+    display: none;
+    position: absolute;
+    width: 100vw;
+    top: 12vh;
+    z-index: 20;
+    background-color:#0000;
+}
+.m-nav div {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f3f87d;
+
+}
+ul{
+    padding: 0;
+    
+}
+
+.m-nav li {
+    position: relative;
+    border-bottom: 2px solid rgb(135, 134, 134); 
+    display: block;
+    width: 90vw;
+    padding: 5px;
+    list-style-type: none;
+    background-color: #0000;  
+    text-decoration: none;
+    text-align: center;
+    color: rgb(26, 24, 24);
+    cursor: pointer;
+}
+.yellow{
+    background-color: yellow;
+}
+.Mood{
+    height: 1.5rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mood div{
+    border: 2px solid rgb(168, 164, 164);
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Java script  css start*/
+
+
+/*Java script  css end*/
+
+/*Reaponsive Media tag start */
+@media screen and (max-width: 600px){
+   .pc{
+        display: none;
+   }
+    .x{
+        margin-right: 8vw;
+        display: flex;
+    }
+    .Mood{
+        width: 6vw;
+        margin-right: 1.5vw;
+        padding-top: 5px;
+    }
+    .outer-circle{
+        height: 5vw;
+        width: 5vw;
+    }
+    .inner-circle{
+        height: 5vw;
+        width: 5vw;
+    }
+    
+}
+/* Reaponsive Meadia tag end*/
