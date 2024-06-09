@@ -55,11 +55,11 @@ const Navbar = () => {
         <div className='m-nav' id='m-nav'>
                 <div>
                     <ul>
-                        <li><FaHome /> HOME   </li>
-                        <li><FcAbout /> ABOUT </li>
+                        <li><FaHome /> <a href='#home'>HOME</a>  </li>
+                        <li><FcAbout /> <a href='#about'>ABOUT</a> </li>
                         <li><AiOutlineFundProjectionScreen /> PROJECTS </li>
                         <li><LiaBuromobelexperte /> EXPRRINCE </li>
-                        <li><MdContactPhone /> CONTACT </li>
+                        <li><MdContactPhone /> <a href='#contact'>CONTACT</a> </li>
                     </ul>
                 </div> 
          </div>
@@ -79,11 +79,11 @@ const Navbar = () => {
                   </div>
                   <div className='pc navigation'>
                       <ul>
-                          <li><FaHome /> HOME  </li>
-                          <li><FcAbout /> ABOUT </li>
+                          <li><FaHome /> <a href='#home'>HOME</a> </li>
+                          <li><FcAbout /> <a href='#about'>ABOUT</a>  </li>
                           <li><AiOutlineFundProjectionScreen /> PROJECTS </li>
                           <li><LiaBuromobelexperte /> EXPRRINCE </li>
-                          <li> <MdContactPhone /> CONTACT </li>
+                          <li> <MdContactPhone /> <a href='#contact'>CONTACT</a> </li>
                       </ul>
                       <div className='Mood' onClick={b} >
                               <div  id='mood' > <MdDarkMode /> </div>

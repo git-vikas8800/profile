@@ -43,6 +43,10 @@
                 5px 5px 6px #c5bff8;
     margin-top: 3.5rem;
 }
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
 
 .top-social{
     width: 1rem;
@@ -135,10 +139,15 @@ form{
     width: 57%;
     border-radius: 30px;
     border-radius: 30px;
-    background: #f6eee49d;
+    background: linear-gradient(15deg, #cacaca, #f6eee49d);
     box-shadow: inset 5px 5px 1px #ddd9d6,
             inset -5px -5px 1px #ffffff;
 
+}
+form:hover{
+    background: linear-gradient(45deg, #f6eee49d, #cacaca);
+    box-shadow:  5px 5px 3px #ddd9d6,
+             -5px -5px 3px #ffffff;
 }
 .form{
     display: flex;
@@ -158,6 +167,12 @@ input{
     box-shadow:  2px 2px 2px #d4d3d3,
              -2px -2px 2px #efeded;
 }
+input:hover{
+    background: linear-gradient(180deg, #ffffff,  #e2dcdc);
+    box-shadow:  2px 2px 2px  #efeded,
+             -2px -2px 2px #d4d3d3;
+}
+
 
 textarea{
     display: block;
